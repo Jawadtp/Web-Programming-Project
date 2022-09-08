@@ -1,0 +1,55 @@
+.topnav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linkButton
+{
+    color: black;
+    font-size: large;
+    margin: 10px 30px;
+    text-decoration: none;
+
+}
+
+.active
+{
+    color: #de08ff;
+}
+
+.titleText
+{
+    margin-top: 50px;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.projectDescription
+{
+    margin: 40px 40px;
+    font-size: 1.5rem;
+}
+
+.learnMoreBtn
+{
+    margin: 20px 40px;
+    background: #de08ff;
+    border-radius: 20px;
+    padding: 14px 22px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.learnMoreBtn:hover
+{
+    cursor: pointer;
+    transform: translate(0.5px, 0.5px);
+}
+
+table, th, td {
+    border:1px solid black;
+  }
