@@ -4,6 +4,8 @@
     justify-content: flex-end;
 }
 
+
+
 .linkButton
 {
     color: black;
@@ -50,6 +52,29 @@
     transform: translate(0.5px, 0.5px);
 }
 
+.membersWrapper, .resourcesWrapper, .contactWrapper
+{
+    margin: 20px;
+}
+
 table, th, td {
     border:1px solid black;
+  }
+
+  @media only screen and (max-width: 600px) 
+{
+    .topnav
+    {
+        display:inline;
+    }
+
+    .linkButton
+    {
+        font-size: large;
+        margin: 8px 10px;
+        text-decoration: none;
+    
+    }
+    
+
   }
