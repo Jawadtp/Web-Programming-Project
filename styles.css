@@ -59,12 +59,20 @@
 .membersWrapper, .resourcesWrapper, .contactWrapper
 {
     margin: 20px;
+    text-align: center;
 }
 
 table, th, td {
     border:1px solid black;
     border-collapse: collapse;
     padding: 10px 20px;
+    text-align: center;
+  }
+
+  .contactWrapper table, .contactWrapper th, .contactWrapper td {
+    border: 0;
+    padding: 5px 90px 5px 90px;
+
   }
 
   @media only screen and (max-width: 600px) 
