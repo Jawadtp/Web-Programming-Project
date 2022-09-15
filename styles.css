@@ -1,12 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .topnav
 {
+    background-color: aliceblue;
     display: flex;
     justify-content: flex-end;
 }
 
 .linkButton:hover
 {
-    color: #de08ff;
+    color: #be1ffd;
 }
 
 .linkButton
@@ -59,6 +65,17 @@
 .membersWrapper, .resourcesWrapper, .contactWrapper
 {
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.membersWrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 table, th, td {
@@ -85,3 +102,10 @@ table, th, td {
 
   }
 
+  .octicon {
+    display: inline-block;
+    overflow: visible !important;
+    vertical-align: text-bottom;
+    fill: #6e7781;
+    
+}
